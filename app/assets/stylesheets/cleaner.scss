@@ -1,0 +1,56 @@
+// Place all the styles related to the Cleaner controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-script{
+  
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 25%;
+  }
+
+  
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .timecode_text{
+      text-align: center
+  }
+
+  .english_text{
+      text-align: left;
+  }
+
+  label{
+    display: block;
+  }
+
+  .text-area{
+    width: 100%;
+    min-height: 70vh;
+  }
+
+  .button{
+    display: block;
+  }

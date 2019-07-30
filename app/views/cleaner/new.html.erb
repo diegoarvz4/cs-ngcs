@@ -1,0 +1,15 @@
+<div class="container-script">
+
+    <%= form_for(:cleaner, url: cleaner_index_path) do |f| %>
+ 
+        <%= f.label :script %>
+        <%= f.text_area :script, class: "text-area" %>  
+
+        <%= f.submit "Submit", class: "button"%>
+        <%= submit_tag("Start Over", { :name => 'reset', :id => 'reset_button', :type => "reset" }) %>
+    <% end %>
+
+
+</div>
+
+
